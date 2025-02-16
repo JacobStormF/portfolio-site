@@ -1,0 +1,304 @@
+#footerContainer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: #333;
+    color: rgb(235, 235, 235);
+    text-align: left;
+    justify-content: left;
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+#logoImage{
+        width: 60px;
+        border: 0px;
+}
+#logoImage1{
+    width: 5%;
+    border: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.hamburger {
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block; 
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none; 
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-links li {
+    padding: 15px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+}
+#nav-links img{
+    width: 60px;
+}
+.nav-links.active {
+    display: flex;
+    
+}
+.nav-links.active img {
+    display: block;
+    margin: 0 auto;   
+}
+@media (min-width: 768px) {
+    .hamburger {
+        display: none; 
+    }
+
+    .nav-links {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        width: auto;
+    }
+
+    .nav-links li {
+        padding: 10px 20px;
+    }
+}
+#jtp{
+    position: fixed;
+    bottom: 7%;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #b9b9b9;
+    color: rgb(73, 73, 73);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 95%;
+    text-decoration: none;
+}
+#jtp:hover{
+    color: rgb(255, 255, 255);
+}
+#pageHead{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(235, 235, 235);
+    font-size: 50px;
+}
+#pageHead2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(235, 235, 235);
+    font-size: 20px;
+    margin-top: -15px;
+}
+#siteImage{
+    width: 100%;
+    max-width: 750px;
+    display: block;
+    margin: 0 auto;
+
+}
+body{
+    background-color: black;
+}
+p{
+    color: rgb(173, 173, 173);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    padding-top: 5px;
+}
+h3{
+    color: rgb(235, 235, 235);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 2px solid rgb(173, 173, 173);  /* Adds a 2px solid black line */
+    padding-bottom: 2px; 
+    font-size: 30px;
+}
+h4{
+    color: rgb(235, 235, 235);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2px; 
+    font-size: 20px;
+}
+h5{
+    color: rgb(173, 173, 173);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2px; 
+    font-size: 18px;
+    padding-top: 8px;
+}
+.container{
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+}
+.progress-bar {
+    width: 100%;              
+    background-color: #f3f3f3; 
+    border-radius: 0px;
+    height: 20px;             
+    max-width: 800px;
+
+}
+
+.progress {
+    height: 100%;           
+    background-color: #5a5a5a; 
+    border-radius: 0px;     
+    width: 70%;
+
+}
+#imageContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;                      
+    max-width: 800px;              
+    width: 100%;                   
+    margin-top: 20px;               
+}
+#imageContainer img {
+    width: 100%;                     
+    object-fit: cover;
+    height: auto;                    
+}
+#gridContainer {
+    display: flex;
+    justify-content: center;    
+    padding: 20px;              
+}
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2px; 
+    font-size: 18px;
+    padding-top: 8px;
+}
+.projects-container {
+    display: flex;                
+    justify-content: center;     
+    align-items: center;        
+    flex-direction: column;      
+    gap: 20px;                  
+    max-width: 800px;           
+    margin: 0 auto;              
+    padding: 20px;               
+}
+.projects-container h3{
+    color: #333;
+    border-bottom: 2px solid #333;  /* Adds a 2px solid black line */
+    padding-bottom: 2px; 
+}
+.projects-container h2{
+    color: rgb(235, 235, 235);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 3px solid rgb(173, 173, 173);  /* Adds a 2px solid black line */
+    padding-bottom: 3px; 
+    font-size: 30px;
+    
+}
+.project {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;                 
+    max-width: 800px;             
+}
+.project img {
+    width: 100%;
+    height: auto;
+}
+.project-details {
+    padding: 20px;
+}
+.project-details h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+.project-details p {
+    font-size: 1em;
+    color: #555;
+}
+.project-details a {
+    text-decoration: none;
+    color: #1ae8c6;
+    font-weight: bold;
+}
+.resources-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+.category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category li {
+    font-size: 1.2em;
+    color: rgb(173, 173, 173);
+}
+
+.category a {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+}
+
+.category a:hover {
+    text-decoration: underline;
+    color: #1ae8c6;
+}
